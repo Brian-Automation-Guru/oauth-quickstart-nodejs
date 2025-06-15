@@ -37,7 +37,7 @@ if (process.env.SCOPE) {
 
 // On successful install, users will be redirected to /oauth-callback
 const REDIRECT_URI = `http://localhost:${PORT}/oauth-callback`;
-
+                      
 //===========================================================================//
 
 // Use a session to keep track of client ID
